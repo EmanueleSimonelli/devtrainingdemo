@@ -1,0 +1,14 @@
+{
+  "name": "dealdesk-server",
+  "version": "1.0.0",
+  "description": "DealDesk API server — Express + SQLite",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.3"
+  }
+}

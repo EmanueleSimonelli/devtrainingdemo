@@ -1,0 +1,14 @@
+[
+  { "buyerId": "BUY-01", "name": "Axiom Demand Partners", "seatId": "SEAT-AXD-001", "type": "dsp", "region": "National" },
+  { "buyerId": "BUY-02", "name": "Meridian Media Buying", "seatId": "SEAT-MMB-002", "type": "agency", "region": "Northeast" },
+  { "buyerId": "BUY-03", "name": "Vortex DSP", "seatId": "SEAT-VDX-003", "type": "dsp", "region": "National" },
+  { "buyerId": "BUY-04", "name": "Pinnacle Programmatic", "seatId": "SEAT-PPG-004", "type": "dsp", "region": "West" },
+  { "buyerId": "BUY-05", "name": "Sunridge Agency Group", "seatId": "SEAT-SAG-005", "type": "agency", "region": "South" },
+  { "buyerId": "BUY-06", "name": "Cobalt Audience Platform", "seatId": "SEAT-CAP-006", "type": "dsp", "region": "National" },
+  { "buyerId": "BUY-07", "name": "Thornfield Media", "seatId": "SEAT-TFM-007", "type": "agency", "region": "Midwest" },
+  { "buyerId": "BUY-08", "name": "NovaBid Technologies", "seatId": "SEAT-NBT-008", "type": "dsp", "region": "National" },
+  { "buyerId": "BUY-09", "name": "Castlegate Advertising", "seatId": "SEAT-CGA-009", "type": "agency", "region": "Northeast" },
+  { "buyerId": "BUY-10", "name": "Pulsar Exchange", "seatId": "SEAT-PEX-010", "type": "dsp", "region": "West" },
+  { "buyerId": "BUY-11", "name": "Irongate Digital", "seatId": "SEAT-IGD-011", "type": "agency", "region": "South" },
+  { "buyerId": "BUY-12", "name": "Solstice Demand Co", "seatId": "SEAT-SDC-012", "type": "dsp", "region": "National" }
+]

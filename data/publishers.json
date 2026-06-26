@@ -1,0 +1,22 @@
+[
+  { "publisherId": "PUB-01", "name": "The Daily Beacon", "vertical": "news", "domain": "dailybeacon.test" },
+  { "publisherId": "PUB-02", "name": "Gridiron Report", "vertical": "sport", "domain": "gridironreport.test" },
+  { "publisherId": "PUB-03", "name": "Streamline Entertainment", "vertical": "entertainment", "domain": "streamlineent.test" },
+  { "publisherId": "PUB-04", "name": "HomeFront Magazine", "vertical": "lifestyle", "domain": "homefrontmag.test" },
+  { "publisherId": "PUB-05", "name": "Market Pulse", "vertical": "finance", "domain": "marketpulse.test" },
+  { "publisherId": "PUB-06", "name": "TechVantage Media", "vertical": "technology", "domain": "techvantage.test" },
+  { "publisherId": "PUB-07", "name": "Pixel Arena", "vertical": "gaming", "domain": "pixelarena.test" },
+  { "publisherId": "PUB-08", "name": "Coastal Chronicle", "vertical": "news", "domain": "coastalchronicle.test" },
+  { "publisherId": "PUB-09", "name": "Fastlane Sports Network", "vertical": "sport", "domain": "fastlanesports.test" },
+  { "publisherId": "PUB-10", "name": "Velvet Screen", "vertical": "entertainment", "domain": "velvetscreen.test" },
+  { "publisherId": "PUB-11", "name": "Harvest Living", "vertical": "lifestyle", "domain": "harvestliving.test" },
+  { "publisherId": "PUB-12", "name": "Equity Wire", "vertical": "finance", "domain": "equitywire.test" },
+  { "publisherId": "PUB-13", "name": "Circuit Digest", "vertical": "technology", "domain": "circuitdigest.test" },
+  { "publisherId": "PUB-14", "name": "Dungeon Times", "vertical": "gaming", "domain": "dungeontimes.test" },
+  { "publisherId": "PUB-15", "name": "Northern Tribune", "vertical": "news", "domain": "northerntribune.test" },
+  { "publisherId": "PUB-16", "name": "Endzone Weekly", "vertical": "sport", "domain": "endzoneweekly.test" },
+  { "publisherId": "PUB-17", "name": "Panorama Lifestyle", "vertical": "lifestyle", "domain": "panoramalife.test" },
+  { "publisherId": "PUB-18", "name": "Wired Frontier", "vertical": "technology", "domain": "wiredfrontier.test" },
+  { "publisherId": "PUB-19", "name": "Apex Finance Today", "vertical": "finance", "domain": "apexfinancetoday.test" },
+  { "publisherId": "PUB-20", "name": "Respawn Central", "vertical": "gaming", "domain": "respawncentral.test" }
+]

@@ -1,0 +1,255 @@
+.page {
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+}
+
+.backBtn {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 6px 14px;
+  color: var(--color-text);
+  font-size: 13px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+}
+
+.backBtn:hover {
+  background: var(--color-bg);
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.cardHeader {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--color-border);
+  background: #fafbfc;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.form {
+  padding: 0;
+}
+
+.submitError {
+  margin: 16px 24px 0;
+  padding: 12px;
+  background: #fee2e2;
+  color: var(--color-danger);
+  border-radius: var(--radius);
+  font-size: 13px;
+}
+
+.fieldset {
+  border: none;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.legend {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-secondary);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  float: left;
+  width: 100%;
+}
+
+.legendCount {
+  font-size: 11px;
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: 10px;
+  padding: 1px 7px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.hint {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 640px) {
+  .grid2, .grid3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 7px 10px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: border-color 0.15s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.inputError {
+  border-color: var(--color-danger) !important;
+}
+
+.select {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 7px 10px;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.inputGroup {
+  display: flex;
+  align-items: stretch;
+}
+
+.inputPrefix {
+  background: #f0f2f9;
+  border: 1px solid var(--color-border);
+  border-right: none;
+  border-radius: var(--radius) 0 0 var(--radius);
+  padding: 7px 10px;
+  color: var(--color-text-secondary);
+  font-size: 13px;
+}
+
+.inputWithPrefix {
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.stateGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 6px;
+  max-height: 320px;
+  overflow-y: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 10px;
+  background: var(--color-bg);
+}
+
+.stateLabel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.1s;
+}
+
+.stateLabel:hover {
+  background: #e8edf8;
+}
+
+.checkbox {
+  accent-color: var(--color-primary);
+  width: 14px;
+  height: 14px;
+}
+
+.stateCode {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text);
+  min-width: 24px;
+}
+
+.stateName {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 16px 24px;
+}
+
+.cancelBtn {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 8px 20px;
+  color: var(--color-text);
+  font-size: 14px;
+}
+
+.cancelBtn:hover {
+  background: var(--color-bg);
+}
+
+.submitBtn {
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.submitBtn:hover:not(:disabled) {
+  background: var(--color-primary-hover);
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

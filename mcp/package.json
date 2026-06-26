@@ -1,0 +1,13 @@
+{
+  "name": "dealdesk-mcp",
+  "version": "1.0.0",
+  "description": "DealDesk MCP server — proxies to the REST API at http://localhost:3001",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}

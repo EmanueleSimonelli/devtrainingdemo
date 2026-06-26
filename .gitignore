@@ -26,3 +26,5 @@ build/
 .DS_Store
 .idea/
 .vscode/
+/server/dealdesk.db-shm
+/server/dealdesk.db-wal
