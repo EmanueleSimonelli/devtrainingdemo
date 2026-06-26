@@ -53,6 +53,12 @@ Buyers, publishers, deal names and domains are invented. Only the geography is r
 
 DealDesk is built from a short product brief (`PRD.md`) rather than a spec — the technical design, the service boundaries and the data shapes are decisions you make. If you're using it to learn multi-agent coding: read the brief, write a build plan, then split the work across agents (front end, back end, MCP, tests) and let them run.
 
+Three files help you do that:
+
+- **`BUILD-PROMPT.md`** — the exact instruction to paste into your coding agent.
+- **`AGENTS.md`** — orientation for any AI agent pointed at this repo: what it is and what to build.
+- **`AGENT-COMMANDS.md`** — a reference for Claude Code's agent, subagent, goal and team commands.
+
 ## Licence and data
 
 Demo project. Synthetic data only — no real company, advertiser or deal. Choose a permissive licence (MIT is a sensible default) before you make the repo public.
