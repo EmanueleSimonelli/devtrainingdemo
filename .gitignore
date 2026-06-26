@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+
+# Build / runtime artifacts
+dist/
+build/
+.next/
+*.log
+
+# Seeded databases (regenerated from /data on first run)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
