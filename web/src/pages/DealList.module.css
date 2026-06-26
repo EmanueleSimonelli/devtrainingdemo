@@ -97,7 +97,7 @@
   color: var(--color-text-secondary);
   border-bottom: 1px solid var(--color-border);
   white-space: nowrap;
-  background: #fafbfc;
+  background: #1d2124;
 }
 
 .table td {
@@ -112,7 +112,7 @@
 }
 
 .row:hover td {
-  background: #f0f4ff;
+  background: rgba(255,255,255,0.075);
 }
 
 .row:last-child td {
@@ -133,7 +133,7 @@
 
 .chip {
   display: inline-block;
-  background: #f0f2f9;
+  background: #343a40;
   color: var(--color-text);
   border-radius: 4px;
   padding: 2px 7px;
